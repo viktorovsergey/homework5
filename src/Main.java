@@ -28,7 +28,7 @@ public class Main {
         if (age >= 18) {
             System.out.println("Если возраст человека равен " + age + " то он достиг совершеннолетия");
         }
-        if (age<18){
+        if (age < 18) {
             System.out.println("Если возраст человека равен " + age + " то он не достиг совершеннолетия нужно подождать");
         }
         System.out.println();
@@ -133,7 +133,7 @@ public class Main {
     }
 
     public static void task6() {
-        /* Задача 6
+        /* Задача 7
          Даны три числа
          int one;
          int two;
@@ -141,7 +141,7 @@ public class Main {
          С помощью условного оператора и конструкции else напишите программу,
          которая вычисляет, какое из трех чисел бо́льшее, и выводит результат в консоль.
          *  */
-        System.out.println("Задача 6");
+        System.out.println("Задача 7");
         int one = 45;
         int two = 62;
         int tree = 28;
@@ -156,12 +156,31 @@ public class Main {
             bigNumber = tree;
         }
 
-        System.out.println("Нвибольшее число из чисел " + one + ", " + two + ", " + tree+"  равно " + bigNumber);
+        System.out.println("Нвибольшее число из чисел " + one + ", " + two + ", " + tree + "  равно " + bigNumber);
+        System.out.println();
     }
 
+
     public static void task7() {
-        /* Задача 7
-         * */
+        /* Задача 6
+        Вместимость одного вагона поезда — 102 человека.
+        Вагон рассчитан на 60 сидячих мест, все остальные — стоячие.
+        С помощью условного оператора и конструкции else
+        напишите программу, которая выводит в консоль сообщение о том,
+        есть ли место в вагоне, сидячее или стоячее, или вагон уже полностью забит. * */
+        System.out.println("Задача 6");
+        int fullPlaces = 102;
+        int busyPlaces = 55;
+        if (busyPlaces<fullPlaces){
+            System.out.println("Есть свобоные места в вагоне");
+            if (busyPlaces<60){
+                System.out.println("В наличии имеются сидячие места");
+            }else{
+                System.out.println(" В наличии остались только стоячие места");
+            }
+        }else {
+            System.out.println("Свободных мест в вагоне нет");
+        }
         System.out.println();
     }
 }
