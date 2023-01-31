@@ -24,10 +24,11 @@ public class Main {
      / он не достиг совершеннолетия, нужно немного подождать».
     * */
         System.out.println("Задача 1");
-        int age = 17;
+        int age = 19;
         if (age >= 18) {
             System.out.println("Если возраст человека равен " + age + " то он достиг совершеннолетия");
-        } else {
+        }
+        if (age<18){
             System.out.println("Если возраст человека равен " + age + " то он не достиг совершеннолетия нужно подождать");
         }
         System.out.println();
@@ -164,3 +165,4 @@ public class Main {
         System.out.println();
     }
 }
+
