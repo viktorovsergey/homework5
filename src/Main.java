@@ -25,7 +25,8 @@ public class Main {
     * */
         System.out.println("Задача 1");
         int age = 19;
-        if (age >= 18) {
+        int ageBigHuman = 18;
+        if (age >= ageBigHuman) {
             System.out.println("Если возраст человека равен " + age + " то он достиг совершеннолетия");
         }
         if (age < 18) {
@@ -44,7 +45,8 @@ public class Main {
             */
         System.out.println("Задача 2");
         int temperature = 5;
-        if (temperature >= 5) {
+        int criticalTemperature = 5;
+        if (temperature >= criticalTemperature) {
             System.out.println("На улице " + temperature + " градусов можно идти без шапки");
         } else {
             System.out.println("На улице " + temperature + " градусов можно нужно надеть шапку");
