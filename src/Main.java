@@ -109,7 +109,7 @@ public class Main {
         if (lableWork) {
             System.out.println("Если возраст человека равен " + age + " то ему нужно ходить на работу ");
         }
-        System.out.println();
+                System.out.println();
     }
 
     public static void task5() {
