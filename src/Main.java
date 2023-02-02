@@ -109,7 +109,7 @@ public class Main {
         if (lableWork) {
             System.out.println("Если возраст человека равен " + age + " то ему нужно ходить на работу ");
         }
-                System.out.println();
+        System.out.println();
     }
 
     public static void task5() {
@@ -123,23 +123,20 @@ public class Main {
         нельзя кататься на аттракционе, можно кататься на аттракционе в сопровождении / без сопровождения взрослого)»
          * * */
         System.out.println("Задача 5");
-        int age = 15;
+        int age = 14;
         int ageNoRide = 5;
         int ageRideHuman = 14;
-        boolean lableBigHuman = false;
         if (age < ageNoRide) {
             System.out.println("Если возраст ребенка равен " + age + " нельзя кататься на аттракционе");
-        }
-        if (lableBigHuman = true) {
-            if (age >= ageNoRide && age <= ageRideHuman) {
-                System.out.println("Если возраст ребенка равен " + age + " можно кататься на аттракционе в сопровождении взрослого");
-            } else {
-                System.out.println("Если возраст ребенка равен " + age + " можно кататься на аттракционе без сопровождении взрослого");
-            }
-
+        } else if (age < ageRideHuman) {
+            System.out.println("Если возраст ребенка равен " + age + " можно кататься на аттракционе в сопровождении взрослого");
+        } else {
+            System.out.println("Если возраст ребенка равен " + age + " можно кататься на аттракционе без сопровождении взрослого");
         }
         System.out.println();
     }
+
+
 
     public static void task6() {
         /* Задача 7
